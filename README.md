@@ -43,48 +43,74 @@ git clone https://github.com/yourusername/Tourism-Recommendation-System.git
 cd Tourism-Recommendation-System
 ```
 
-📊 Core Logic
+## 📊 Data Sources
 
-🔍 Destination Recommender
-Combines category and city into a single feature.
+- 🏞️ **Destinations** scraped from [Holidify](https://www.holidify.com)
+- 🏨 **Hotels** scraped from [MakeMyTrip](https://www.makemytrip.com)
 
-Uses TF-IDF Vectorizer to vectorize place descriptions.
+---
 
-Calculates cosine similarity to recommend similar places by category.
+## 📈 EDA & Model Development
 
+- **EDA**: Visual analysis of destination and hotel datasets
+- **Model Logic**:
+  - Destination similarity computed using **TF-IDF + Cosine Similarity**
+  - Hotel scoring using:
+    ```
+    Score = 0.7 * normalized_rating + 0.3 * inverse_discounted_price
+    ```
 
-🛠️ Technologies Used
+- **Evaluation Metrics (for future expansion)**:
+  - Precision@K
+  - Recall@K
+  - NDCG
 
-Python
+---
 
-Flask
+## 💡 How it Works
 
-Pandas
+- The system recommends destinations by matching **user-selected category** with destination descriptions using **TF-IDF**.
+- Hotel recommendations are filtered by **user-selected city** and **maximum price**, then scored based on **ratings and prices**.
+- Each result includes key details: Name, Rating, Price, Facilities, and Nearby Attractions.
 
-Scikit-learn
+---
 
-HTML/CSS (inline in Flask app)
+## 🎯 What Users Can Expect
 
-TF-IDF & Cosine Similarity
+- 🗺️ Top 10 destination suggestions from the chosen category.
+- 🏨 Top 10 hotel options that fit within the user’s budget in a specific city.
+- 💬 Clear display of essential details for decision-making:
+  - Ratings
+  - Pricing
+  - Facilities
+  - Nearby locations
+- 🎨 Simple and visually pleasing HTML/CSS user interface.
 
+---
 
-💡 Future Enhancements
+## 📸 Screenshots
 
-Deploy app on Render, Streamlit, or Heroku
+_(Add your screenshots here if available)_
 
-Add user login for personalization
+---
 
-Save user history and preferences
+## ✅ Conclusion
 
-Improve recommendation algorithm with collaborative filtering
+This project demonstrates how **content-based filtering** and **price-based ranking** can be used to build a functional and intelligent **tourism recommendation system**. By leveraging key features like category, rating, and price, the system delivers results that align with user expectations and help make informed travel decisions.
 
+---
 
-🤝 Contributing
+## 🔮 Future Scope
 
-Feel free to fork this project and submit a pull request with your improvements!
+- 🔁 Add collaborative filtering for user-specific suggestions  
+- 💬 Collect user feedback to fine-tune recommendations  
+- 📲 Deploy to cloud platforms (Streamlit, Render, or Heroku)  
+- 🧠 Expand into a full-fledged **travel planner** with itinerary suggestions  
 
+---
 
-
+Thank you for visiting this project!  
+⭐ Feel free to fork, use, and contribute!
 
 
 
