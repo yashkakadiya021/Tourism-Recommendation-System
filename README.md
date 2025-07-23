@@ -92,7 +92,9 @@ cd Tourism-Recommendation-System
 
 <img width="1280" height="800" alt="Main_page" src="https://github.com/user-attachments/assets/6de33387-69b3-4dbd-8d88-5017a66678d8" />
 
-<img width="542" height="708" alt="place_final" src="https://github.com/user-attachments/assets/cac4054c-a15a-48c1-8604-f5cf6570c897" />   <img width="518" height="539" alt="hotel_final" src="https://github.com/user-attachments/assets/8119839c-7edd-4d8a-bf59-a9f8d48aa5da" />
+<img width="500" height="600" alt="place_final" src="https://github.com/user-attachments/assets/cac4054c-a15a-48c1-8604-f5cf6570c897" />   
+
+<img width="500" height="700" alt="hotel_final" src="https://github.com/user-attachments/assets/8119839c-7edd-4d8a-bf59-a9f8d48aa5da" />
 
 
 
