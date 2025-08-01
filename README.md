@@ -11,7 +11,8 @@ A web-based tourism recommendation system that suggests **destinations** and **h
 - Choose from categories like **Historical**, **Beaches**, **Mountains**, **Adventure**, and more.
 - Top-rated places recommended using a content-based filter with **TF-IDF + Cosine Similarity**.
 
-  <img width="840" height="644" alt="machine learning - visual selection (2)" src="https://github.com/user-attachments/assets/8930b602-22c9-4915-b9a8-169c9cb20d74" />
+  <img width="840" height="647" alt="machine learning - visual selection (14)" src="https://github.com/user-attachments/assets/1877e610-2f73-4277-b4df-bd6fe5c20ea9" />
+
 
 
 ### 🏨 Hotel Recommendation
@@ -54,6 +55,10 @@ cd Tourism-Recommendation-System
 
 - 🏞️ **Destinations** scraped from [Holidify](https://www.holidify.com)
 - 🏨 **Hotels** scraped from [MakeMyTrip](https://www.makemytrip.com)
+
+<img width="504" height="336" alt="machine learning - visual selection (18)" src="https://github.com/user-attachments/assets/5185261f-b435-4998-88e7-fc41ae64c59e" />
+
+
 
 ---
 
