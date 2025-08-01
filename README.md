@@ -11,12 +11,18 @@ A web-based tourism recommendation system that suggests **destinations** and **h
 - Choose from categories like **Historical**, **Beaches**, **Mountains**, **Adventure**, and more.
 - Top-rated places recommended using a content-based filter with **TF-IDF + Cosine Similarity**.
 
+  <img width="840" height="644" alt="machine learning - visual selection (2)" src="https://github.com/user-attachments/assets/8930b602-22c9-4915-b9a8-169c9cb20d74" />
+
+
 ### 🏨 Hotel Recommendation
 - Get hotel suggestions based on **city** and **maximum price**.
 - Hotels are ranked using a **custom score**:
   - 70% rating (normalized)
   - 30% inverse price (cheaper is better)
 - Also displays **facilities** and **nearby places**.
+
+  <img width="648" height="502" alt="machine learning - visual selection (4)" src="https://github.com/user-attachments/assets/68735d0d-a7e0-4708-8dd5-a4d0c5d3e384" />
+
 
 ---
 
@@ -65,6 +71,8 @@ cd Tourism-Recommendation-System
   - Recall@K
   - NDCG
 
+<img width="624" height="562" alt="machine learning - visual selection (10)" src="https://github.com/user-attachments/assets/1ca2b3f2-e8bd-4210-8d22-8d385fc03fd8" />
+
 ---
 
 ## 💡 How it Works
@@ -74,6 +82,9 @@ cd Tourism-Recommendation-System
 - Each result includes key details: Name, Rating, Price, Facilities, and Nearby Attractions.
 
 ---
+
+<img width="840" height="778" alt="machine learning - visual selection (8)" src="https://github.com/user-attachments/assets/ec45acd9-1164-43a8-8df1-a90da2f3579a" />
+
 
 ## 🎯 What Users Can Expect
 
