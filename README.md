@@ -21,7 +21,8 @@ A web-based tourism recommendation system that suggests **destinations** and **h
   - 30% inverse price (cheaper is better)
 - Also displays **facilities** and **nearby places**.
 
-  <img width="648" height="502" alt="machine learning - visual selection (4)" src="https://github.com/user-attachments/assets/68735d0d-a7e0-4708-8dd5-a4d0c5d3e384" />
+ <img width="648" height="480" alt="machine learning - visual selection (12)" src="https://github.com/user-attachments/assets/f51e2b4f-2700-4ef9-859e-6853dfaa6244" />
+
 
 
 ---
